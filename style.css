@@ -1,0 +1,29 @@
+body{
+    background-image: url("sign.jpg");
+  background-attachment: fixed;
+  background-position-x: center;    
+  background-size: cover;
+}
+   button:is(:hover, :focus){
+    outline-offset: 12px;
+    background-color: rgb(0, 204, 255);
+    color: white;
+    font-style: italic;
+    margin: 2px 2px;
+    font-size: large;
+   }
+   .login{
+    color: rgb(30, 0, 255);
+   }
+b{
+    font-size: larger;
+}
+   div{
+    border-style: solid;
+    border-color: aliceblue;
+    padding: 20px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+   }
